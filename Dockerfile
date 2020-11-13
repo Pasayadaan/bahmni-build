@@ -5,3 +5,4 @@ RUN yum -y install centos-release-scl-rh centos-release-scl
 RUN scl enable rh-ruby25 bash
 RUN gem update --system
 RUN gem install compass
+
